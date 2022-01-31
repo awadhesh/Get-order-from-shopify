@@ -3,8 +3,8 @@
 	require 'shopify.php';
 
 	/* Define your APP`s key and secret*/
-	define('SHOPIFY_API_KEY','aa16c1c5ed0aceb99592c4fff8776d01');
-	define('SHOPIFY_SECRET','d52fdcbcbc27fda049d77fe7682d88da');
+	define('SHOPIFY_API_KEY','');
+	define('SHOPIFY_SECRET','');
 	
 	/* Define requested scope (access rights) - checkout https://docs.shopify.com/api/authentication/oauth#scopes 	*/
 	define('SHOPIFY_SCOPE','read_orders');	//eg: define('SHOPIFY_SCOPE','read_orders,write_orders');

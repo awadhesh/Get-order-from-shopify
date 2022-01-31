@@ -53,8 +53,8 @@ function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 
     
 }
 	/* Define your APP`s key and secret*/
-	define('SHOPIFY_API_KEY','aa16c1c5ed0aceb99592c4fff8776d01');
-	define('SHOPIFY_SECRET','d52fdcbcbc27fda049d77fe7682d88da');
+	define('SHOPIFY_API_KEY','');
+	define('SHOPIFY_SECRET','');
 	
 // Get our helper functions
 
@@ -67,7 +67,7 @@ $code = $_SESSION["code"];
 $timestamp = $_SESSION["timestamp"];
 $signature = $_SESSION["hmac"];
 // Compile signature data
-print_r($_SESSION);
+//print_r($_SESSION);
 
 
 // Use signature data to check that the response is from Shopify or not
